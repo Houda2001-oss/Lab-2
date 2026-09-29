@@ -1,1 +1,2 @@
 -- uppgift 1
+type Board :: [[Int]]
