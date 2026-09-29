@@ -5,8 +5,15 @@ type State ::  (Board,[Action])
 
 --uppgift 2
 
-
-
+--operationer L, u, R och D i en bas "data Action" som kan användas med 
+--funktionen eq. Där om man anbönder sig av show och sedan en
+--operation kommer koden ge dig en riktning.
+data Action = L | R | U | D deriving eq
+Instance show Action where
+        show L = "Left"
+        show U = "Up"
+        show R = "Right"
+        show D = "Down"
 
 
 --uppgift 3 
