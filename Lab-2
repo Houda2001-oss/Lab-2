@@ -1,2 +1,4 @@
 -- uppgift 1
 type Board :: [[Int]]
+type Position :: (Int, Int)
+type State ::  (Board,[Action])
