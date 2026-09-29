@@ -2,3 +2,13 @@
 type Board :: [[Int]]
 type Position :: (Int, Int)
 type State ::  (Board,[Action])
+
+--uppgift 2
+
+
+
+
+
+--uppgift 3 
+Solution :: Board 
+Solution = [[1,2,3], []] 
